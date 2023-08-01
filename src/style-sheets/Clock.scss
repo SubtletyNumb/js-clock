@@ -1,0 +1,111 @@
+.main-container{
+  width: 500px;
+  height: 400px;
+  display: flex;
+  // background-color: #ffffff0a;
+  color: white;
+  display: flex;
+  margin-top:0px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.buttons-wrapper{
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .label{
+    font-size: 18px;
+    // margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-size: 20px;
+      font-weight: 600;
+      padding: 0px 4px 0px 4px;
+    }
+    button{
+      color: white;
+      font-size: 18px;
+      padding: 0 4px 0 4px;
+      background-color: rgba(0, 255, 255, 0);
+      cursor: pointer;
+      border: 1px solid white;
+    }button:hover{
+      animation-name: btnhover;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+.timer-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#timer-label{
+font-size: 20px;
+font-weight: bolder;
+color: rgb(255, 255, 255);
+}
+#time-left{
+  font-size: 130px;
+  font-weight: bold;
+}
+.timer-buttons-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  i{
+    padding: 4px 8px 0px 8px;
+    font-size: 28px;
+    cursor: pointer;
+  }i:hover{
+    animation-name: resetbtnhoveranim;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  button{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 5px 20px 5px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover{
+    animation-name: hover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    // animation-;
+  }
+}
+
+@keyframes hover{
+  100%{
+    background-color: #fff0;
+    color: white;
+  }
+}
+@keyframes btnhover{
+  100%{
+    background-color: white;
+    color: black;
+  }
+}
+@keyframes resetbtnhoveranim{
+  100%{
+    transform: rotate(90deg);
+  }
+}
