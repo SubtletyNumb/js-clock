@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/js-clock/static/css/main.1decae32.css",
+    "main.js": "/js-clock/static/js/main.dd10bc8e.js",
+    "static/media/background-image.jpg": "/js-clock/static/media/background-image.6356b2f35719e80a84e1.jpg",
+    "static/media/beep.mp3": "/js-clock/static/media/beep.2e4f9ee5476c9356c8af.mp3",
+    "index.html": "/js-clock/index.html",
+    "main.1decae32.css.map": "/js-clock/static/css/main.1decae32.css.map",
+    "main.dd10bc8e.js.map": "/js-clock/static/js/main.dd10bc8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1decae32.css",
+    "static/js/main.dd10bc8e.js"
+  ]
+}
